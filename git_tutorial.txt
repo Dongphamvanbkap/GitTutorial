@@ -1,0 +1,81 @@
+1. Git version
+    git --version
+
+2. Setup global configuration
+    git config --global user.name 'DongPhamVan'
+    git config --global user.email 'dongphamvan.bkap@gmail.com'
+
+    git config --list
+3. Git help
+    git help <verb>
+    git <verb> --help
+
+    ex. git help config
+        git config --help
+4. Git init
+    git init
+
+5. Git status
+    git status
+
+6. Git add (to staging)
+    git add <filename>
+    git add .
+    git add -A
+
+7. Git remove (from staging)
+    git reset <filename>
+    git reset
+
+8. Git commit
+   git commit -m 'Initial Commit'
+   git log
+
+9. Git clone
+    git clone <url> <where to clone>
+
+10. Git remote repository
+    git remote -v
+    git branch -a
+
+11. Pushing changes
+    git diff
+    git status
+    git add .
+    git commit -m 'Commited'
+    git pull origin master
+    git push origin master
+
+    git push -u origin <branchname>
+
+12. Git branch
+    git branch
+    git branch -a
+    git branch <branchname>
+    git checkout <branchname>
+
+    git branch -d <branchname>
+    git push origin --delete <branchname>
+
+13. Git merge a branch
+    git checkout master
+    git pull origin master
+
+    git branch --merged
+    git merge <branchname>
+    git push origin master
+
+14. Undoing Bad Commits
+    git commit --amend -m 'Commit change'
+
+15. Git reset
+    git reset --soft <hash>
+    git reset <hash>
+    git reset --hard <hash>
+
+16. Git clean
+    git clean -df
+
+17. Git log
+    git log
+    git reflog
